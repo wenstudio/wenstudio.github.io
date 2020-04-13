@@ -62,7 +62,7 @@ For enquiry or support, please contact <a href="mailto:lilichen017@gmail.com">ip
 ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★<span>★★★</span><br />
 
   
-  {% for post in site.posts %}
+  {% for post in site.posts limit:0%}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
